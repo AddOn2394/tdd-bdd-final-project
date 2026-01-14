@@ -53,9 +53,6 @@ Scenario: Read a Product
     And I should see "A red fedora" in the "Description" field
     And I should see "True" in the "Available" dropdown
     And I should see "Cloths" in the "Category" dropdown
-<<<<<<< HEAD
-    And I should see "59.95" in the "Price" field
-=======
     And I should see "59.95" in the "Price" field
 
 Scenario: Update a Product
@@ -134,4 +131,3 @@ Scenario: Search by name
     Then I should see the message "Success"
     And I should see "Hat" in the "Name" field
     And I should see "A red fedora" in the "Description" field
->>>>>>> 08bcd8b5e75716754513c5918174ed275210894d
