@@ -32,7 +32,7 @@ class ProductFactory(factory.Factory):
 
     id = factory.Sequence(lambda n: n)
     name = FuzzyChoice(
-        choices=[ 
+        choices=[
             "Guantes",
             "Cinturones",
             "Papaya",
